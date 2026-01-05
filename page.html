@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Landing Page</title>
+
+    <link rel="website icon" type="svg" href="./assets/images/logo.svg" />
+
+    <link rel="stylesheet" href="page.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <!---==========NAVBAR---START==========--->
+
+      <nav>
+        <div class="logo">
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="get_started_btn">
+          <a href="#">
+            <img src="./assets/images/get_started.svg" alt="" />
+          </a>
+        </div>
+      </nav>
+
+      <!---==========NAVBAR---END==========--->
+
+      <!---==========BANNER---START==========--->
+
+      <section class="banner">
+        <div class="banner_wrapper">
+          <div class="banner_container">
+            <div
+              class="banner_left_content"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="left_content_text">
+                <h2>No Borders, Just Business</h2>
+                <p>
+                  Get paid from 150+ countries with full compliance, zero
+                  guesswork, and instant settlement proof.
+                </p>
+              </div>
+              <div class="left_list">
+                <div class="icon_text_content">
+                  <span>
+                    <img src="./assets/images/trust.png" alt="Trust icon" />
+                  </span>
+                  <div>
+                    <h4>TRUST</h4>
+                    <p>RBI- authorized PA-CB</p>
+                  </div>
+                </div>
+                <div class="icon_text_content">
+                  <span>
+                    <img
+                      src="./assets/images/convenience.svg"
+                      alt="Convenience icon"
+                    />
+                  </span>
+                  <div>
+                    <h4>CONVENIENCE</h4>
+                    <p>1 dashboard for everything</p>
+                  </div>
+                </div>
+                <div class="icon_text_content">
+                  <span>
+                    <img src="./assets/images/speed.svg" alt="Speed icon" />
+                  </span>
+                  <div>
+                    <h4>SPEED</h4>
+                    <p>80% time savings on paperwork</p>
+                  </div>
+                </div>
+                <div class="icon_text_content">
+                  <span>
+                    <img src="./assets/images/cost.svg" alt="Cost icon" />
+                  </span>
+                  <div>
+                    <h4>COST</h4>
+                    <p>Zero set up fees</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="banner_right_content"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <h3 class="form_title">Get Started Today</h3>
+              <form id="connectform">
+                <div class="form_group">
+                  <label for="fullname">Full Name*</label>
+                  <input
+                    type="text"
+                    id="fullname"
+                    placeholder="e.g. John Doe"
+                  />
+                  <div class="error"></div>
+                </div>
+                <div class="form_group">
+                  <label for="email">Business Email*</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="e.g. name@company.com"
+                  />
+                  <div class="error"></div>
+                </div>
+                <div class="form_group">
+                  <label for="phone">Phone Number*</label>
+                  <input
+                    type="number"
+                    id="phone"
+                    placeholder="e.g. 0987654321"
+                  />
+                  <div class="error"></div>
+                </div>
+                <div class="form_group">
+                  <label for="company">Company Name*</label>
+                  <input
+                    type="text"
+                    id="company"
+                    placeholder="e.g. Dummyname"
+                  />
+                  <div class="error"></div>
+                </div>
+                <div class="form_group">
+                  <label for="volume">Monthly Export Volume*</label>
+                  <select id="volume">
+                    <option value="">Select</option>
+                    <option value="0-50k">$0 - $50,000</option>
+                    <option value="50k-200k">$50,000 - $200,000</option>
+                    <option value="200k-500k">$200,000 - $500,000</option>
+                    <option value="500k+">$500,000+</option>
+                  </select>
+                  <div class="error"></div>
+                </div>
+                <button type="submit" class="submit_btn">Get Started</button>
+                <p class="privacy_text">
+                  Your information is secure. We respect your privacy.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="banner_bg_circles" data-aos="fade-up">
+          <img src="./assets/images/banner_bg_circle.svg" alt="" />
+        </div>
+      </section>
+
+      <!---==========BANNER---END==========--->
+
+      <!---==========SECOND---SECTION---START==========--->
+
+      <!-- <section class="wrapper">
+        <div class="cards_grid">
+          <div class="cards">
+            <div class="cards_upper_content">
+              <h4>150+ Countries</h4>
+              <h5>Global Reach</h5>
+              <p>Accept payments worldwide</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Truly borderless payment acceptance</p>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cards_upper_content">
+              <h4>150+ Countries</h4>
+              <h5>Global Reach</h5>
+              <p>Accept payments worldwide</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Truly borderless payment acceptance</p>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cards_upper_content">
+              <h4>150+ Countries</h4>
+              <h5>Global Reach</h5>
+              <p>Accept payments worldwide</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Truly borderless payment acceptance</p>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cards_upper_content">
+              <h4>150+ Countries</h4>
+              <h5>Global Reach</h5>
+              <p>Accept payments worldwide</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Truly borderless payment acceptance</p>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cards_upper_content">
+              <h4>150+ Countries</h4>
+              <h5>Global Reach</h5>
+              <p>Accept payments worldwide</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Truly borderless payment acceptance</p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="wrapper">
+        <div class="cards_flex_row">
+          <div class="cards" data-aos="fade-up">
+            <div class="cards_upper_content">
+              <h4>150+ Countries</h4>
+              <h5>Global Reach</h5>
+              <p>Accept payments worldwide</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Truly borderless payment acceptance</p>
+            </div>
+          </div>
+          <div class="cards" data-aos="fade-up">
+            <div class="cards_upper_content">
+              <div class="cards_icon">
+                <img src="./assets/images/icons/visa.svg" alt="" />
+              </div>
+              <h5>International Cards Acceptance</h5>
+              <p>Accept all major cards globally</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>International cards</p>
+            </div>
+          </div>
+          <div class="cards" data-aos="fade-up">
+            <div class="cards_upper_content">
+              <div class="cards_icon">
+                <img src="./assets/images/icons/designed.svg" alt="" />
+              </div>
+              <h5>Designed for Indian exporters</h5>
+              <p>Tailored to Indian exporters’ needs</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Indian export operations</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards_flex_row row_margin">
+          <div class="cards" data-aos="fade-up">
+            <div class="cards_upper_content">
+              <div class="cards_icon">
+                <img src="./assets/images/icons/onboarding.svg" alt="" />
+              </div>
+              <h5>Easy Onboarding</h5>
+              <p>Get started without paperwork</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Paperless KYC</p>
+            </div>
+          </div>
+          <div class="cards" data-aos="fade-up">
+            <div class="cards_upper_content">
+              <div class="cards_icon">
+                <img src="./assets/images/icons/settlements.svg" alt="" />
+              </div>
+              <h5>Quick Settlements</h5>
+              <p>Fast and reliable automated processing</p>
+            </div>
+            <div class="card_bottom_line">
+              <p>Automated processing</p>
+            </div>
+          </div>
+        </div>
+
+        <!---==========SECOND---SECTION---END==========--->
+
+        <!---==========THIRD---SECTION---START==========--->
+
+        <div class="second_section_grid">
+          <div class="left_content" data-aos="fade-up">
+            <h2>Our Business Edge</h2>
+            <div id="accordion-container"></div>
+          </div>
+          <div class="right_img" data-aos="fade-up" data-aos-delay="150">
+            <img src="./assets/images/accordion_globe_img.svg" alt="" />
+          </div>
+        </div>
+
+        <!---==========THIRD---SECTION---END==========--->
+
+        <!---==========FOURTH---SECTION---START==========--->
+
+        <div class="pacb_advanage_container">
+          <div class="top_texts" data-aos="fade-up">
+            <h2>The PA-CB Advantage</h2>
+            <p>We are a RBI authorized payment aggregator cross- border</p>
+          </div>
+          <div
+            class="comparison-wrapper"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div class="table-container">
+              <div class="comparison-table">
+                <div class="table-header">
+                  <div class="header-cell"></div>
+                  <div class="header-cell">Traditional Banks</div>
+                  <div class="header-cell">OPGSP (Old Limits)</div>
+                </div>
+
+                <div class="table-row">
+                  <div class="row-cell row-label">Settlement Time</div>
+                  <div class="row-cell">7-10 days</div>
+                  <div class="row-cell">3-5 days</div>
+                </div>
+
+                <div class="table-row">
+                  <div class="row-cell row-label">Transaction Limit</div>
+                  <div class="row-cell">Varies</div>
+                  <div class="row-cell">₹9 Lakhs</div>
+                </div>
+
+                <div class="table-row">
+                  <div class="row-cell row-label">FX Transparency</div>
+                  <div class="row-cell">Hidden fees (3-5%)</div>
+                  <div class="row-cell">Variable spreads</div>
+                </div>
+
+                <div class="table-row">
+                  <div class="row-cell row-label">Proof Generation</div>
+                  <div class="row-cell">Manual (2-3 weeks)</div>
+                  <div class="row-cell">Manual</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-header">
+                <div class="logo-group">
+                  <div class="logo">
+                    <img src="./assets/images/white_logo.svg" alt="" />
+                  </div>
+                  <div class="logo">
+                    <img src="./assets/images/pa-cb.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <li>4 days</li>
+                <li>₹25 lakh</li>
+                <li>Upfront pricing</li>
+                <li>Automatic (instant)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!---==========FOURTH---SECTION---END==========--->
+
+        <!---==========FIFTH---SECTION---START==========--->
+
+        <div class="why_pacb_container">
+          <div class="left_img" data-aos="fade-up">
+            <img src="./assets/images/pacb_img.png" alt="" />
+          </div>
+          <div class="right_content">
+            <div data-aos="fade-up" data-aos-delay="150">
+              <h2>Why PA-CB Authorization Matters</h2>
+            </div>
+            <ul data-aos="fade-up" data-aos-delay="250">
+              <li>
+                We're fully compliant with Indian cross-border payment
+                regulations
+              </li>
+              <li>Your business is legally protected under RBI oversight</li>
+              <li>
+                Faster settlements and better rates than non-authorized
+                providers
+              </li>
+              <li>Complete FEMA compliance and documentation support</li>
+            </ul>
+          </div>
+        </div>
+
+        <!---==========FIFTH---SECTION---END==========--->
+      </section>
+
+      <!---==========SIXTH---SECTION---START==========--->
+
+      <section class="get_Started_today">
+        <div class="top_texts">
+          <div data-aos="fade-up">
+            <h2>Get Started Today</h2>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="150">
+            <p>Start accepting international payments in four simple steps</p>
+          </div>
+        </div>
+
+        <div class="slider" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper mySwiper" style="padding-bottom: 68px">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide first_slide">
+                <div class="slide">
+                  <h2>1.</h2>
+                  <div class="slide_content_img">
+                    <img src="./assets/images/slide_img1.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <h4>Sign Up & Verify</h4>
+                    <ol>
+                      <li>Paperless KYC</li>
+                      <li>EC auto-sync with DGFT</li>
+                      <li>Instant approval</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <h2>2.</h2>
+                  <div class="slide_content_img">
+                    <img src="./assets/images/slide_img2.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <h4>Integrate Payment Gateway</h4>
+                    <ol>
+                      <li>Multi-currency support</li>
+                      <li>Multiple payment modes</li>
+                      <li>Real-time tracking</li>
+                      <li>Transparent FX</li>
+                      <li>International Card Acceptance</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <h2>3.</h2>
+                  <div class="slide_content_img">
+                    <img src="./assets/images/slide_img3.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <h4>Auto Compliance</h4>
+                    <ol>
+                      <li>Quick e-FIRA</li>
+                      <li>Auto e-FIRC</li>
+                      <li>Bank-ready docs</li>
+                      <li>Auto invoice matching</li>
+                      <li>Dedicated Integration Support</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <h2>4.</h2>
+                  <div class="slide_content_img">
+                    <img src="./assets/images/slide_img4.png" alt="" />
+                  </div>
+                  <div class="slide_content">
+                    <h4>Start Accepting Payments</h4>
+                    <ol>
+                      <li>INR settlement</li>
+                      <li>Automated Seamless Settlement Report</li>
+                      <li>No surprise deductions</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider_navigation">
+              <div class="swiper-button-prev">
+                <div class="left_arrow">
+                  <iconify-icon icon="akar-icons:arrow-left"></iconify-icon>
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <div class="right_arrow">
+                  <iconify-icon icon="akar-icons:arrow-right"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---==========SIXTH---SECTION---END==========--->
+
+      <!---==========SEVENTH---SECTION---START==========--->
+
+      <section class="testimonial_slider_container">
+        <div class="wrapper">
+          <div data-aos="fade-up" data-aos-delay="150">
+            <h5>What our users say</h5>
+          </div>
+          <div class="swiper mySwiper2" data-aos="fade-up" data-aos-delay="250">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimoinial_slide">
+                  <div class="user_text">
+                    <p>
+                      “At CheQ, speed and trust are non-negotiable. Pay10
+                      delivers both. Their gateway integrated quickly, scaled
+                      smoothly, and keeps uptime consistently high. More
+                      importantly, the team is proactive-fine-tuning flows,
+                      tightening risk controls, and resolving issues before they
+                      become problems. With Pay10, reconciliation is simpler,
+                      settlements are predictable, and our customers experience
+                      a smoother path to payment. They’re the payments partner
+                      we rely on.”
+                    </p>
+                  </div>
+
+                  <div class="user">
+                    <div class="user_img">
+                      <img src="./assets/images/user.png" alt="" />
+                    </div>
+                    <div class="user_details">
+                      <h6>Vineesh Kumar</h6>
+                      <p>Head of Payments</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimoinial_slide">
+                  <div class="user_text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aliquid, accusamus voluptatibus. Cum qui voluptatem quis
+                      modi, suscipit debitis dolore explicabo magnam
+                      reprehenderit nesciunt cumque error? Sit impedit rerum
+                      consequatur perspiciatis? Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Aliquid, accusamus
+                      voluptatibus. Cum qui voluptatem quis modi, suscipit
+                      debitis dolore explicabo magnam reprehenderit nesciunt
+                      cumque error? Sit impedit rerum consequatur perspiciatis?
+                    </p>
+                  </div>
+
+                  <div class="user">
+                    <div class="user_img">
+                      <img src="./assets/images/user.png" alt="" />
+                    </div>
+                    <div class="user_details">
+                      <h6>Vineesh Kumar</h6>
+                      <p>Head of Payments</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimoinial_slide">
+                  <div class="user_text">
+                    <p>
+                      “At CheQ, speed and trust are non-negotiable. Pay10
+                      delivers both. Their gateway integrated quickly, scaled
+                      smoothly, and keeps uptime consistently high. More
+                      importantly, the team is proactive-fine-tuning flows,
+                      tightening risk controls, and resolving issues before they
+                      become problems. With Pay10, reconciliation is simpler,
+                      settlements are predictable, and our customers experience
+                      a smoother path to payment. They’re the payments partner
+                      we rely on.”
+                    </p>
+                  </div>
+
+                  <div class="user">
+                    <div class="user_img">
+                      <img src="./assets/images/user.png" alt="" />
+                    </div>
+                    <div class="user_details">
+                      <h6>Vineesh Kumar</h6>
+                      <p>Head of Payments</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial_slider_navigation">
+              <div class="swiper-button-prev">
+                <div class="left_arrow">
+                  <iconify-icon icon="akar-icons:arrow-left"></iconify-icon>
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <div class="right_arrow">
+                  <iconify-icon icon="akar-icons:arrow-right"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---==========SEVENTH---SECTION---END==========--->
+
+      <!---==========EIGHT---SECTION---START==========--->
+
+      <section class="wrapper">
+        <div class="faq-texts">
+          <div data-aos="fade-up">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="150">
+            <p>Everything you need to know about Pay10 World</p>
+          </div>
+        </div>
+
+        <div class="faq_grid_container">
+          <div data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-btn">
+              <a href="#">
+                <button class="contact-btn">Contact Us</button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="accordion-container"
+            data-aos="fade-up"
+            data-aos-delay="250"
+          >
+            <div class="accordion">
+              <div class="accordion-item active">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title">What is a PACB licence?</span>
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >What does a PACB licence allow a payment company to
+                    do?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >Is PayI0 World registered and licensed under the PACB
+                    framework?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >Who issues and regulates the PACB licence?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >What does a PACB licence mean for my business?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >Are there any limits or restrictions defined under the PACB
+                    framework?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >How does a PACB license help in aligning payments?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >Are there monthly, annual, or cumulative volume limits
+                    under the PACB framework?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >What security measures are mandated under the PACB
+                    framework?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span class="accordion-icon"></span>
+                  <span class="accordion-title"
+                    >Does Pay10 World comply with required PACB reporting and
+                    security standards?</span
+                  >
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    A PACB license enables a payment organisation to aggregate
+                    and process cross-border payments for customers. PA-CB
+                    authorised companies like Pay10 World are permitted to
+                    support merchants and businesses to accept and send payments
+                    across international borders while conforming to the
+                    regulations established for foreign currency exchanges and
+                    payments.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!---==========EIGHT---SECTION---END==========--->
+
+        <!---==========NINETH---SECTION---START==========--->
+
+        <div class="get_started_texts">
+          <div data-aos="fade-up">
+            <h2>Ready to Go Global?</h2>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="150">
+            <p>
+              Join thousands of Indian businesses accepting international
+              payments with Pay10 World
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="get_started_form_container"
+          data-aos="fade-up"
+          data-aos-delay="250"
+        >
+          <form id="connectform">
+            <h3>Get Started Today</h3>
+            <div class="input_flex">
+              <div class="form_group">
+                <label for="fullname">Full Name*</label>
+                <input type="text" id="fullname" placeholder="e.g. John Doe" />
+                <div class="error"></div>
+              </div>
+              <div class="form_group">
+                <label for="email">Business Email*</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="e.g. name@company.com"
+                />
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="input_flex">
+              <div class="form_group">
+                <label for="phone">Phone Number*</label>
+                <input type="number" id="phone" placeholder="e.g. 0987654321" />
+                <div class="error"></div>
+              </div>
+              <div class="form_group">
+                <label for="company">Company Name*</label>
+                <input type="text" id="company" placeholder="e.g. Dummyname" />
+                <div class="error"></div>
+              </div>
+            </div>
+            <button type="submit" class="submit_btn">Get Started</button>
+            <p class="privacy_text">
+              Your information is secure. We respect your privacy.
+            </p>
+          </form>
+        </div>
+
+        <!---==========NINETH---SECTION---END==========--->
+      </section>
+
+      <!---==========FOOTER---SECTION---START==========--->
+
+      <footer>
+        <div class="footer_grid">
+          <div class="footer_logo" data-aos="fade-up">
+            <img src="./assets/images/footer_red_logo.svg" alt="" />
+          </div>
+          <div class="footer_content">
+            <div class="footer_links" data-aos="fade-up" data-aos-delay="150">
+              <a href="#" class="links_heading">Home</a>
+            </div>
+            <div class="footer_links" data-aos="fade-up" data-aos-delay="200">
+              <h4 class="links_heading">Company</h4>
+              <ul>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Vision & Mission</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_links" data-aos="fade-up" data-aos-delay="250">
+              <h4 class="links_heading">Products</h4>
+              <div class="product_links">
+                <h5>Digital Wallet</h5>
+                <ul>
+                  <li>
+                    <a href="#">Consumer App</a>
+                  </li>
+                  <li>
+                    <a href="#">Merchant App</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="product_links">
+                <h5>Payment Gateway</h5>
+                <ul>
+                  <li>
+                    <a href="#">Payment Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Integration Methods</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer_links" data-aos="fade-up" data-aos-delay="300">
+              <h4 class="links_heading">Resources</h4>
+              <ul>
+                <li>
+                  <a href="#">Blogs</a>
+                </li>
+                <!-- <li>
+                  <a href="#">News</a>
+                </li> -->
+                <li>
+                  <a href="#">Events</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_links" data-aos="fade-up" data-aos-delay="350">
+              <a href="#" class="links_heading">Contact</a>
+            </div>
+          </div>
+          <div class="social_handles" data-aos="fade-up" data-aos-delay="400">
+            <div class="footer_icons">
+              <div>
+                <img src="./assets/images/icons/facebook.svg" alt="" />
+              </div>
+              <div>
+                <img src="./assets/images/icons/linkedin.svg" alt="" />
+              </div>
+              <div>
+                <img src="./assets/images/icons/insta.svg" alt="" />
+              </div>
+              <div>
+                <img src="./assets/images/icons/twitter.svg" alt="" />
+              </div>
+            </div>
+            <div class="download_btns">
+              <a href="#" target="_blank">
+                <img src="./assets/images/google_play.svg" alt="" />
+              </a>
+              <a href="#" target="_blank">
+                <img src="./assets/images/appstore.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="copyright">
+            © PAY10 | Find us at: Building Number 4, Nirmal Puri, Block 4, Lajpat Nagar IV, Lajpat Nagar, New Delhi, Delhi 110024
+          </div>
+          <div class="footer_bottom_links">
+            <a href="#">Terms & Conditions</a>
+            <span>|</span>
+            <a href="#">Privacy Policy</a>
+            <span>|</span>
+            <a href="#">Customer Grievances Policy</a>
+          </div>
+        </div>
+      </footer>
+
+      <!---==========FOOTER---SECTION---END==========--->
+    </main>
+
+    <!---====================JAVASCRIPTS---START==================--->
+
+    <script src="./page.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      function slider() {
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 24,
+          speed: 1000,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            320: {
+              slidesPerView: 1,
+            },
+            480: {
+              slidesPerView: 1.2,
+            },
+            640: {
+              slidesPerView: 1.4,
+            },
+            768: {
+              slidesPerView: 1.8,
+            },
+            1024: {
+              slidesPerView: 2.5,
+            },
+            1200: {
+              slidesPerView: 3.5,
+              spaceBetween: 24,
+            },
+          },
+        });
+      }
+      slider();
+    </script>
+
+    <script>
+      function testimonialSlider() {
+        var swiper = new Swiper(".mySwiper2", {
+          spaceBetween: 20,
+          speed: 1000,
+          // autoplay: {
+          //   delay: 3000,
+          //   disableOnInteraction: false,
+          // },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      }
+      testimonialSlider();
+    </script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 150,
+      });
+    </script>
+  </body>
+</html>
