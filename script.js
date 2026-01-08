@@ -390,31 +390,37 @@ function GradientAccordion() {
         id: 2,
         title: "Global Payment Methods",
         content:
-          "Accept payments in 100+ currencies and provide your customers with seamless checkout experience worldwide.",
+          "Support multiple international payment methods including cards, digital wallets, and local payment options.",
       },
       {
         id: 3,
         title: "RBI Authorised",
         content:
-          "Accept payments in 100+ currencies and provide your customers with seamless checkout experience worldwide.",
+          "Fully compliant and authorized by the Reserve Bank of India for cross-border payment operations.",
       },
       {
         id: 4,
-        title: "Transparent FX",
+        title: "Real Time Currency Conversion",
         content:
-          "Accept payments in 100+ currencies and provide your customers with seamless checkout experience worldwide.",
+          "Instant currency conversion at competitive rates to ensure transparent and efficient transactions.",
       },
       {
         id: 5,
-        title: "Dedicated Integration Support",
+        title: "Transparent FX",
         content:
-          "Accept payments in 100+ currencies and provide your customers with seamless checkout experience worldwide.",
+          "Know your exact exchange rate upfront with zero hidden markups, so you always understand what you’ll receive before the payment lands.",
       },
       {
         id: 6,
+        title: "Dedicated Integration Support",
+        content:
+          "Get hands-on onboarding and technical support to go live faster, with fewer errors and no dependency on banks or third-party developers.",
+      },
+      {
+        id: 7,
         title: "Receiving INR Settlement",
         content:
-          "Accept payments in 100+ currencies and provide your customers with seamless checkout experience worldwide.",
+          "Receive international payments directly in INR into your Indian account, eliminating FX uncertainty and simplifying reconciliation and compliance.",
       },
     ],
     initialActiveIndex: 0,

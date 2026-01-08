@@ -103,7 +103,6 @@ body {
   line-height: 1.2;
 }
 
-
 main {
   max-width: 2048px;
   width: 100%;
@@ -142,7 +141,7 @@ nav .logo {
 nav .logo img {
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 nav .get_started_btn {
   width: 143px;
@@ -156,7 +155,7 @@ nav .get_started_btn {
 nav .get_started_btn img {
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   transition: all ease 0.2s;
 }
 nav .get_started_btn:hover img {
@@ -332,7 +331,8 @@ nav .get_started_btn:hover img {
   outline: none;
   border-color: var(--red);
 }
-.banner .banner_right_content .form_group input::-moz-placeholder, .banner .banner_right_content .form_group select::-moz-placeholder {
+.banner .banner_right_content .form_group input::-moz-placeholder,
+.banner .banner_right_content .form_group select::-moz-placeholder {
   color: #d9d9d9;
   font-family: "regular";
 }
@@ -445,7 +445,7 @@ nav .get_started_btn:hover img {
 .cards_flex_row .cards .cards_icon img {
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .cards_flex_row .cards p {
   color: var(--gray);
@@ -544,7 +544,8 @@ nav .get_started_btn:hover img {
   left: 0;
   width: 100%;
   background: linear-gradient(180deg, #ff8800 0%, var(--red) 100%);
-  transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1), top 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    top 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
   border-radius: 2px;
   will-change: height, top;
@@ -565,8 +566,8 @@ nav .get_started_btn:hover img {
   position: relative;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   outline: none;
 }
 .second_section_grid .left_content .item:focus-visible {
@@ -598,7 +599,8 @@ nav .get_started_btn:hover img {
   line-height: 1;
   display: inline-block;
   position: absolute;
-  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .second_section_grid .left_content .dash {
   opacity: 0;
@@ -624,7 +626,9 @@ nav .get_started_btn:hover img {
   overflow: hidden;
   margin-top: 0;
   transform: translateY(-10px);
-  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.1s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.1s,
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
   color: var(--gray);
   font-family: "regular";
   font-size: 20px;
@@ -656,6 +660,40 @@ nav .get_started_btn:hover img {
 .second_section_grid .right_img {
   width: 100%;
 }
+.second_section_grid .right_img svg {
+  width: 100%;
+  height: 100%;
+}
+.second_section_grid .right_img svg .svg_icon {
+  animation: svgIcon linear 5s infinite;
+  animation-delay: 1s;
+}
+@keyframes svgIcon {
+  0% {
+    translate: 0 -0.3rem;
+  }
+  50% {
+    translate: 0 0.3rem;
+  }
+  100% {
+    translate: 0 -0.3rem;
+  }
+}
+.second_section_grid .right_img svg .svg_icon2 {
+  animation: svgIcon2 linear 5s infinite;
+  animation-delay: 1s;
+}
+@keyframes svgIcon2 {
+  0% {
+    translate: 0.3rem 0;
+  }
+  50% {
+    translate: -0.3rem 0;
+  }
+  100% {
+    translate: 0.3rem 0;
+  }
+}
 @media only screen and (max-width: 991px) {
   .second_section_grid .right_img {
     order: 1;
@@ -664,7 +702,7 @@ nav .get_started_btn:hover img {
 .second_section_grid .right_img img {
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media only screen and (max-width: 991px) {
   .second_section_grid .right_img img {
@@ -892,7 +930,7 @@ nav .get_started_btn:hover img {
 .why_pacb_container .left_img img {
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media only screen and (max-width: 991px) {
   .why_pacb_container .left_img img {
@@ -1013,7 +1051,7 @@ nav .get_started_btn:hover img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .get_Started_today .slider .slide {
   width: 100%;
@@ -1051,7 +1089,7 @@ nav .get_started_btn:hover img {
   width: -moz-fit-content;
   width: fit-content;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media only screen and (max-width: 991px) {
   .get_Started_today .slider .slide .slide_content_img img {
@@ -1173,7 +1211,7 @@ nav .get_started_btn:hover img {
 .testimonial_slider_container .testimoinial_slide .user .user_img img {
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media only screen and (max-width: 991px) {
   .testimonial_slider_container .testimoinial_slide .user .user_img img {
@@ -1217,11 +1255,15 @@ nav .get_started_btn:hover img {
   transition: all ease 0.5s;
 }
 .testimonial_slider_container .testimonial_slider_navigation .left_arrow:hover,
-.testimonial_slider_container .testimonial_slider_navigation .right_arrow:hover {
+.testimonial_slider_container
+  .testimonial_slider_navigation
+  .right_arrow:hover {
   color: var(--red);
 }
 .testimonial_slider_container .testimonial_slider_navigation .left_arrow::after,
-.testimonial_slider_container .testimonial_slider_navigation .right_arrow::after {
+.testimonial_slider_container
+  .testimonial_slider_navigation
+  .right_arrow::after {
   content: "";
   position: absolute;
   width: 300%;
@@ -1233,8 +1275,12 @@ nav .get_started_btn:hover img {
   z-index: -1;
   transition: all ease 0.5s;
 }
-.testimonial_slider_container .testimonial_slider_navigation .left_arrow:hover::after,
-.testimonial_slider_container .testimonial_slider_navigation .right_arrow:hover::after {
+.testimonial_slider_container
+  .testimonial_slider_navigation
+  .left_arrow:hover::after,
+.testimonial_slider_container
+  .testimonial_slider_navigation
+  .right_arrow:hover::after {
   bottom: -380%;
 }
 .testimonial_slider_container .swiper-navigation-icon {
@@ -1333,8 +1379,8 @@ nav .get_started_btn:hover img {
   gap: 12px;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   transition: all 0.3s ease;
 }
 .faq_grid_container .accordion-title {
@@ -1402,6 +1448,17 @@ nav .get_started_btn:hover img {
   color: var(--gray);
   line-height: 1.4;
   font-size: 0.98rem;
+}
+.faq_grid_container .accordion-content-inner ul {
+  padding-left: 20px;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.faq_grid_container .accordion-content-inner ul li {
+  font-family: "light";
+  line-height: 1.1;
 }
 @media (max-width: 768px) {
   .faq_grid_container .accordion-header {
@@ -1615,7 +1672,7 @@ footer .footer_grid .footer_logo img {
   width: 100%;
   max-width: 180px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 footer .footer_grid .footer_logo p {
   color: var(--white);
@@ -1755,7 +1812,7 @@ footer .footer_grid .social_handles .footer_icons div img {
   width: 24px;
   height: 24px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 footer .footer_grid .social_handles .download_btns {
   display: flex;
@@ -1769,7 +1826,7 @@ footer .footer_grid .social_handles .download_btns a img {
   width: 140px;
   height: auto;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 footer .footer_bottom {
   width: 100%;
@@ -1822,4 +1879,4 @@ footer .footer_bottom .footer_bottom_links a:hover {
 }
 footer .footer_bottom .footer_bottom_links span {
   color: var(--white);
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
